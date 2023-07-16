@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main-Take the last digit of the number
+ * main-Take the last digit of the number
  *
- *Return:SUCCESS value
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,10 +13,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	int Lastdigit = n % 10;
-        printf("The string Last digit of %d is ", n);
+        printf("Last digit of %d is ", n);
 	if (Lastdigit > 5)
 	{
-        printf("%d and is greater than 5\n", Lastdigit);
+	printf("%d and is greater than 5\n", Lastdigit);
         }
 	else if (Lastdigit == 0)
         {
