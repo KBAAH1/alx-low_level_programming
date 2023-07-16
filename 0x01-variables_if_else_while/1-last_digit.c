@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int n;
-	int Lastdigit = n % 10;
+        int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	int Lastdigit = n % 10;
         printf("The string Last digit of %d is ", n);
 	if (Lastdigit > 5)
 	{
