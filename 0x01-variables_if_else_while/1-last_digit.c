@@ -5,12 +5,12 @@
 /**
  *main-Take the last digit of the number
  *
- *Return:Always 0 (success)
+ *Return:SUCCESS value
  */
 int main(void)
 {
 	int n;
-	int lastdigit = n % 10;//print the remainder on n
+	int lastdigit = "n % 10";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
