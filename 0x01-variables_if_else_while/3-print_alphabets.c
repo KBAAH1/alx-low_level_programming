@@ -1,20 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ *main - Entry point
  *
  * Return: Always o (Sucess)
-*/
+ */
 int main(void)
 {
-char L;
+char L, l;
 
 L = 'a';
+l = 'A';
 while (L <= 'z')
 {
 putchar(L);
 ++L;
 }
-putchar("\n");
+while (l <= 'Z')
+{
+putchar(l);
+++l;
+}
+putchar('\n');
 return (0);
 }
